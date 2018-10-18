@@ -1,15 +1,15 @@
 {
   "name": "socialy",
   "description": "Basic profile info for Twitter and Instagram username",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Nivrith",
   "license": "MIT",
   "main": "lib/socialy.js",
   "files": [
-    "/lib"
+    "lib"
   ],
   "scripts": {
-    "prepack": "rm -rf lib && tsc",
+    "prepack": "tsc",
     "test": "tsc && tslint --project tsconfig.json && jest --verbose --coverage",
     "watch:test": "jest --watch"
   },
