@@ -1,7 +1,7 @@
 {
   "name": "socialy",
   "description": "Basic profile info for Twitter and Instagram username",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Nivrith",
   "license": "MIT",
   "main": "lib/socialy.js",
