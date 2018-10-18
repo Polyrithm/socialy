@@ -1,17 +1,23 @@
-# undefined
+# Socialy
 
-undefined
+Get 
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 # Install
 
-    npm install undefined --save
+    npm install socialy --save
+
+    yarn add socialy
+
+    bower install nivrith009/socialy
 
 # Usage
 
-
+    const socialy = require('socialy');
+    const twitterFollowers = socialy.twitter('johndoe');
+    const instagramFollowers = socialy.instagram('johndo');
 
 # API
 
