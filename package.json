@@ -1,21 +1,18 @@
 {
   "name": "socialy",
   "description": "Basic profile info for Twitter and Instagram username",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "author": "Nivrith",
   "license": "MIT",
-  "main": "lib/socialy.js",
-  "files": [
-    "lib",
-    "src"
-  ],
+  "main": "./lib/socialy.js",
+  "types": "./lib/socialy.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nivrith009/socialy.git"
   },
   "scripts": {
     "prepack": "tsc",
-    "build": "tsc",
+    "build": "rm -rf lib && tsc",
     "test": "tsc && tslint --project tsconfig.json && jest --verbose --coverage",
     "watch:test": "jest --watch"
   },
