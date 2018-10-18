@@ -9,8 +9,13 @@
     "lib",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivrith009/socialy.git"
+   },
   "scripts": {
     "prepack": "tsc",
+    "build": "tsc",
     "test": "tsc && tslint --project tsconfig.json && jest --verbose --coverage",
     "watch:test": "jest --watch"
   },
