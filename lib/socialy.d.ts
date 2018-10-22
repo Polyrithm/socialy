@@ -3,7 +3,7 @@ declare class Socialy {
     /**
      * instagram
      */
-    instagram(username?: string): Promise<void>;
+    instagram(username?: string): Promise<any>;
 }
 declare const _default: Socialy;
 export default _default;

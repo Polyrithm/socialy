@@ -3,7 +3,7 @@ const request = require('request');
 const BASE_URL = 'https://www.instagram.com/';
 
 class Insta {
-  async getReport(username: string = 'johndoe') {
+  async getReport(username: string = 'johndoe'): Promise<any> {
     const url = BASE_URL + username;
     request(url, (err: any, resp: any, body: any) => {
       if (err) {
